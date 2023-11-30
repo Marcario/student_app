@@ -29,7 +29,7 @@ class homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('School App'),
+        title: Text('StudentApp'),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -56,7 +56,7 @@ class homepage extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    'Our School App',
+                    'Our Student App',
                     style: TextStyle(
                       fontSize: 36,
                       fontWeight: FontWeight.bold,
